@@ -14,14 +14,14 @@ export const unstable_settings = {
 export default function RootLayout() {
   const [loading,setLoading] = useState(true)
 
-  useEffect(() => {
+  // useEffect(() => {
     
-    setTimeout(() => {
-      setLoading(false)
-    }, 2000);
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //   }, 2000);
 
 
-  }, [loading])
+  // }, [loading])
   
 
 
