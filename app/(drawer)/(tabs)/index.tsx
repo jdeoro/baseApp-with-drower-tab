@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Container } from '~/components/Container';
 import { ScreenContent } from '~/components/ScreenContent';
 import { useEffect } from 'react';
-import { View } from 'react-native';
+import { View , Text} from 'react-native';
 
 export default function Home() {
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       <Stack.Screen options={{ title: 'Menu' }} />
-      <View>Menu Screen</View>
+      <View><Text>Menu Screen</Text></View>
     </>
   );
 }

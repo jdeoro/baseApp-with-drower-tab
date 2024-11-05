@@ -4,9 +4,11 @@ import { Link, Stack } from 'expo-router'
 
 export default function index() {
   return (
-      <View className="flex flex-1 items-center justify-center bg-orange-500" >
-        <Image className="flex px-11 mx-5 " source={require('../assets/delivery-1.webp')} />
-        <Text className="text-lg text-white">Bienvenido</Text>
+      <View className="bg-orange-500 p-16 items-center flex flex-1 justify-center" >
+        <Image className=' w-[350px] ' source={require('../assets/delivery.webp')} />
+        <Text className=" text-4xl text-white font-bold">Foody</Text>
+        <Text className=" text-xl text-gray-300 font-bold">delivery</Text>        
+        <Text className="text-lg text-white mt-10">cargando...</Text>
       </View>
   );
 }
