@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Stack.Screen options={{ title: 'Home' }} />
       <View>
-          <Text>screen Home</Text>        
+          <Text>Configuraciones</Text>        
       </View>
     </>
   );

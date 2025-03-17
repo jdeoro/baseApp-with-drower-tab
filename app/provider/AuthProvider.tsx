@@ -6,7 +6,7 @@ export const AuthContext = createContext({})
 
 const AuthProvider = ({children}: PropsWithChildren) => {
   return (
-    <AuthContext.Provider value={{ item:"Jorge"}}>
+    <AuthContext.Provider value={{ userName:"Jorge"}}>
         {children}
     </AuthContext.Provider>
   )
